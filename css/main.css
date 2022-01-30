@@ -77,7 +77,7 @@ line-height: 0.9em;
     border-bottom: 0.2rem solid #5f525c;
     box-shadow: 5px 4px 5px 0 rgba(53, 44, 50, 0.55);
     width: 20%;
-    margin-left: 950px;
+    margin: 0 auto;
 }
 .help p{
     font-size: 14pt;
@@ -103,10 +103,7 @@ line-height: 0.9em;
     border-bottom: 0.2rem solid #5f525c;
     box-shadow: 5px 4px 5px 0 rgba(53, 44, 50, 0.55);
     width: 20%;
-    margin-left: 950px;
-    
-
-
+    margin: 0 auto;
 }
 
 
