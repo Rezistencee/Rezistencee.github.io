@@ -147,7 +147,7 @@ line-height: 0.9em;
     border-color:#BABABA;
     color:#444;
  }
- .contact {
+ form#contact {
      width: 650px;
  }
  input.error, textarea.error {
