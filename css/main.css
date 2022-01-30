@@ -113,12 +113,17 @@ line-height: 0.9em;
 
 #inline {
     margin-left:550px;
-    width:80%;
+    width:40%;
     margin:0 auto;
     background:#352d33;
     padding:10px 20px;
     margin-top: 350px;
  }
+
+#inline h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
 
  .txt {
     display:inline-block;
