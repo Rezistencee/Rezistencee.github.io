@@ -9,8 +9,8 @@ $message = trim($message);
 $headers = "From" .$name. "\r\n" ."Reply-To: " .$from;
 
 if (mail($to, $name, $message, $headers)) {     
-    echo "сообщение успешно отправлено";
+    echo "Сообщение успешно отправлено";
 } else {
-    echo "при отправке сообщения возникли ошибки";
+    echo "При отправке сообщения возникла ошибка";
 }
 ?>
