@@ -146,6 +146,7 @@ line-height: 0.9em;
     font-size:15px!important;
     line-height:1.4em;
     height:80px;
+    resize: none;
  }
  .txt:focus, .txtarea:focus {
     border-style:solid;
