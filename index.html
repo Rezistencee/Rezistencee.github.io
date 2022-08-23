@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Auguri</title>
+  <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <section class="background">
+    <div class="content">
+    <p class="auguri">З днем народження!</p>
+        <button class="wish" id="wishStar">загадай бажання<br>та натисни на мене</button>
+        <button onclick="document.location='second.html'" type="button" id="buttonGift" > подарунок </button>
+        <p class="tip"> ↓ </p>
+        <div class="night">
+          <div class="shooting_star" id="shooting_Star"></div>
+         
+        </div>
+
+        <div class="starWish"></div>
+    
+    </div>
+    <!-- <div class="clouds"></div> -->
+  </section>
+  <section class="background">
+    <div class="content" id="secondPage">
+<h1>Привіт, Лапуля!</h1>
+<p>Ще раз вітаю тебе з днем народження! Сьогодні особливий день, тому я хочу, щоб ти його провела краще ніж інші свої дні народження. Сподіваюсь, що я покладу цьому початок, і в тебе настрій буде гарний, таким і залишиться назавжди.</p>
+<p>Я ніколи в тобі не сумнівалась і  не буду сумніватись, ти дуже талановита, креативна та дуже гарна дівчина, таких як ти я не зустрічала. В тебе є певні переживання, проблеми, але потрібно щоб ти пам'ятала, що є багато людей, я в цьому впевнена на 100%, яким ти не байдужа, які люблять тебе і зроблять все для того, щоб ти посміхалась і почувала себе краще (я в цьому ж числі).</p>
+<p>Я тебе люблю і пишаюсь тобою, в тебе все отримається, бо ти - молодець!</p>
+</div>
+</section>
+<!-- partial -->
+<script  src="js/paralax.js"></script>
+<script src="js/wish.js"></script>
+<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #000000 url(http://hello-site.ru//main/images/preloads/bars.svg) center center no-repeat;background-size:41px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru"></a></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+
+</body>
+</html>

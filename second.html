@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>chill</title>
+  <link href="https://fonts.googleapis.com/css?family=Limelight:400&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="css/2ndesign.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<script src="js/AlertToGift.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="initClock()">
+<div class="room">
+  <div class="background-sound" id="sounds">
+    <button type="button" onclick="playsoundrain()"  class="noize" id="rain-btn"></button>
+    <button type="button" onclick="playsoundfire()" class="noize" id="fireplace-btn"></button>
+    <button type="button" onclick="playsoundsnow()" class="noize" id="snow-btn"></button>
+    <button type="button" onclick="playsoundwind()" class="noize" id="wind-btn"></button>
+  </div>
+  <div class="window">
+    <div class="stars"></div>
+    <div class="star"></div>
+    <div id="moon" class="moon"></div>
+    <div class="cloud"></div>
+    <div class="eiffel-tower">
+      <div class="platform"></div>
+    </div>
+    <div class="roof"></div>
+    <div class="bush" ></div>
+  </div>
+  <div class="monitor">
+    <div class="img-container"><img src="image/" id="cover">
+      
+    </div>
+    <div id="timedate">
+      <a class="data" id="mon">January</a>
+      <a class="data" id="d">1</a>,
+      <a class="data" id="y">0</a><br />
+      <a class="data" id="h">12</a>:
+      <a class="data" id="m">00</a>:
+      <a class="data" id="s">00</a>
+    </div>
+  </div>
+  <div class="monitor_leg"></div>
+  <div class="monitor_plate"></div>
+  <div class="keyboard">
+    <div class="keys"></div>
+    <div class="mouse">
+      <div class="mouse_scroll"></div>
+    </div>
+  </div>
+  <div class="table">  
+    <div class="cup">
+      <div class="tea"></div>
+    </div>
+  </div>
+  <div class="table_leg"></div>
+  <div class="table_leg_2"></div>
+  <div class="window-sill">
+    <div class="cat">
+      <div class="head">
+        <div class="eyes"></div>
+      </div>
+      <div class="tail"></div>
+    </div>
+  </div>
+  <div id="songs">
+    <div class="player" id="Player">
+    <div class="player-content" id="Playerheader"></div>
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+      </div>
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+      <div class="buttons-nav">
+        <button type="button" id="next-btn" >
+          <i class="fas fa-backward" id="testbtn"></i>
+        </button>
+      <button type="button" id="play-pause">
+        <i class="fas fa-play" id="icon-play"></i>
+      </button>
+      <button type="button" id="prev-btn">
+        <i class="fas fa-forward"></i>
+      </button></div>
+      <audio src="./songs/Mistmorn.mp3" id="audio"></audio>
+    </div>
+    </div>
+   
+  </div>
+  <div class="hidebutton" id="hidebutton">
+    <button onclick="document.location='index.html'" type="button" id="backtomain">
+      <i class="fa-solid fa-caret-left"></i>
+    </button></div>
+  <a href="https://drive.google.com/uc?export=download&id=18N2qptl4AhCzxVgwVeEtWp9mO0lSqTZx" id="downloadGift" download="">Скачати ще подарунок</a>
+</div>
+  <script src="js/clock.js"></script>
+  <script src="js/move.js"></script>
+  <script src="js/sounds.js"></script>
+  <script type="text/javascript" src="js/jquery-3.6.0.min (1).js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script><script src="js/player.js"></script>
+</body>
+</html>
